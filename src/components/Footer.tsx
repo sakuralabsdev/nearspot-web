@@ -134,19 +134,19 @@ export default function Footer() {
               <li>
                 <Link
                   href="/terms"
-                  className="hover:text-indigo-400 text-indigo-300 font-medium transition-colors flex items-center gap-1.5"
+                  className="hover:text-indigo-400 text-slate-300 transition-colors flex items-center gap-1.5"
                 >
-                  <FileText className="w-3.5 h-3.5 text-indigo-400" />
+                  <FileText className="w-3.5 h-3.5 text-slate-400" />
                   Terms & Conditions
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/terms#privacy"
-                  className="hover:text-white transition-colors flex items-center gap-1.5"
+                  href="/privacy"
+                  className="hover:text-indigo-400 text-indigo-300 font-medium transition-colors flex items-center gap-1.5"
                 >
-                  <ShieldCheck className="w-3.5 h-3.5 text-slate-400" />
-                  Privacy & Data
+                  <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
+                  Privacy Policy
                 </Link>
               </li>
               <li>
@@ -178,7 +178,11 @@ export default function Footer() {
             </span>
             <span>•</span>
             <Link href="/terms" className="hover:text-slate-200 underline">
-              Legal Disclaimers
+              Terms
+            </Link>
+            <span>•</span>
+            <Link href="/privacy" className="hover:text-slate-200 underline">
+              Privacy
             </Link>
             <span>•</span>
             <span className="text-slate-500">

@@ -71,9 +71,15 @@ export default function Navbar() {
             </Link>
             <Link
               href="/terms"
-              className="px-3.5 py-2 text-sm font-medium text-slate-600 hover:text-indigo-600 hover:bg-slate-100/70 rounded-lg transition-colors"
+              className="px-3 py-2 text-sm font-medium text-slate-600 hover:text-indigo-600 hover:bg-slate-100/70 rounded-lg transition-colors"
             >
               Terms
+            </Link>
+            <Link
+              href="/privacy"
+              className="px-3 py-2 text-sm font-medium text-slate-600 hover:text-indigo-600 hover:bg-slate-100/70 rounded-lg transition-colors"
+            >
+              Privacy
             </Link>
           </nav>
 
@@ -152,6 +158,13 @@ export default function Navbar() {
             className="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium"
           >
             Terms and Conditions
+          </Link>
+          <Link
+            href="/privacy"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 font-medium"
+          >
+            Privacy Policy
           </Link>
 
           <div className="pt-3 border-t border-slate-100 flex flex-col gap-2">
