@@ -151,6 +151,15 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/delete-account"
+                  className="hover:text-rose-400 text-slate-300 transition-colors flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                  Delete Account & Data
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/terms#cancellations"
                   className="hover:text-white transition-colors"
                 >
@@ -183,6 +192,10 @@ export default function Footer() {
             <span>•</span>
             <Link href="/privacy" className="hover:text-slate-200 underline">
               Privacy
+            </Link>
+            <span>•</span>
+            <Link href="/delete-account" className="hover:text-slate-200 underline">
+              Delete Account
             </Link>
             <span>•</span>
             <span className="text-slate-500">
